@@ -6,8 +6,8 @@ USE alx_book_store;
 
 -- Create AUTHORS table
 CREATE TABLE IF NOT EXISTS Authors (
-    Author_id INT NOT NULL PRIMARY KEY,
-    Author_name VARCHAR(215) NOT NULL
+    author_id INT NOT NULL PRIMARY KEY,
+    author_name VARCHAR(215) NOT NULL
 );
 
 -- Create BOOKS table
