@@ -42,6 +42,6 @@ CREATE TABLE IF NOT EXISTS Order_Details (
     ORDER_ID INT NOT NULL,
     book_id INT NOT NULL,
     quantity DOUBLE NOT NULL,
-    FOREIGN KEY (order_id) REFERENCES ORDERS(order_id),
-    FOREIGN KEY (book_id) REFERENCES BOOKS(book_id)
+    FOREIGN KEY (order_id) REFERENCES Orders(order_id),
+    FOREIGN KEY (book_id) REFERENCES Books(book_id)
 );
